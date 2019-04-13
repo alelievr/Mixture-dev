@@ -1,0 +1,3 @@
+[submodule "Assets/Mixture"]
+	path = Assets/Mixture
+	url = git@github.com:alelievr/Mixture.git

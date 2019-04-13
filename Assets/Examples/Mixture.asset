@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 3b113f958e0564f309164e29c24b042d, type: 3}
+  m_Name: Mixture
+  m_EditorClassIdentifier: 
+  serializedNodes:
+  - type: TextureNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    jsonDatas: '{"GUID":"3c9b7ba0-a313-4a8c-a5e8-1fa60622ca98","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-233.0,"y":82.0,"width":166.0,"height":95.0},"expanded":false,"debug":false,"input":{"instanceID":0},"output":{"instanceID":-20438},"shader":{"instanceID":22308}}'
+  - type: OutputNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    jsonDatas: '{"GUID":"","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":43.0,"y":38.0,"width":84.0,"height":77.0},"expanded":false,"debug":false,"input":{"instanceID":-20056}}'
+  edges:
+  - GUID: e1e2478b-acff-4576-907e-7d690735a7d5
+    owner: {fileID: 11400000}
+    inputNodeGUID: 
+    outputNodeGUID: 3c9b7ba0-a313-4a8c-a5e8-1fa60622ca98
+    inputFieldName: input
+    outputFieldName: output
+  commentBlocks: []
+  pinnedElements:
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 236
+      width: 150
+      height: 200
+    opened: 1
+    editorType:
+      serializedType: GraphProcessor.ProcessorView, com.alelievr.NodeGraphProcessor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  exposedParameters: []
+  position: {x: 503, y: 77, z: 0}
+  scale: {x: 1, y: 1, z: 1}
