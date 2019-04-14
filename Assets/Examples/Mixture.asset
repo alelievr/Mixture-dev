@@ -14,17 +14,11 @@ MonoBehaviour:
   m_Name: Mixture
   m_EditorClassIdentifier: 
   serializedNodes:
-  - type: TextureNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    jsonDatas: '{"GUID":"3c9b7ba0-a313-4a8c-a5e8-1fa60622ca98","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-233.0,"y":82.0,"width":166.0,"height":95.0},"expanded":false,"debug":false,"input":{"instanceID":0},"output":{"instanceID":-20438},"shader":{"instanceID":22308}}'
   - type: OutputNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    jsonDatas: '{"GUID":"","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":43.0,"y":38.0,"width":84.0,"height":77.0},"expanded":false,"debug":false,"input":{"instanceID":-20056}}'
-  edges:
-  - GUID: e1e2478b-acff-4576-907e-7d690735a7d5
-    owner: {fileID: 11400000}
-    inputNodeGUID: 
-    outputNodeGUID: 3c9b7ba0-a313-4a8c-a5e8-1fa60622ca98
-    inputFieldName: input
-    outputFieldName: output
+    jsonDatas: '{"GUID":"","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":43.0,"y":38.0,"width":84.0,"height":77.0},"expanded":false,"debug":false,"input":{"instanceID":-20056}}'
+  - type: TextureNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    jsonDatas: '{"GUID":"f75eded5-02ba-4440-b4b2-d39f0a7e4879","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-263.0,"y":145.0,"width":235.0,"height":185.0},"expanded":false,"debug":false,"input":{"instanceID":0},"output":{"instanceID":-25172},"shader":{"instanceID":22308},"material":{"instanceID":-24720}}'
+  edges: []
   commentBlocks: []
   pinnedElements:
   - position:
@@ -38,5 +32,28 @@ MonoBehaviour:
       serializedType: GraphProcessor.ProcessorView, com.alelievr.NodeGraphProcessor,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   exposedParameters: []
-  position: {x: 503, y: 77, z: 0}
+  position: {x: 524, y: 33, z: 0}
   scale: {x: 1, y: 1, z: 1}
+--- !u!21 &1910170714169000941
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs/TextureNodeDefaultBlack
+  m_Shader: {fileID: -6465566751694194690, guid: 7c6b9799c63c64ad7bd74475852e39e7,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _10: 42
+    m_Colors: []
