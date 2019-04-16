@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.alelievr.node-graph-processor": "file:/Users/Infotech/Unity/NodeGraphProcessor/Assets/NodeGraphProcessor",
+    "com.alelievr.node-graph-processor": "https://github.com/alelievr/NodeGraphProcessor.git#upm",
     "com.unity.ads": "2.0.8",
     "com.unity.analytics": "3.3.2",
     "com.unity.collab-proxy": "1.2.15",
@@ -40,5 +40,11 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
+  },
+  "lock": {
+    "com.alelievr.node-graph-processor": {
+      "hash": "4e8884a7b354c280d9ae1e3d5964825d35596ba1",
+      "revision": "upm"
+    }
   }
 }
