@@ -5,6 +5,12 @@
                 "fullName": "UnityEditor.ShaderGraph.Vector1ShaderProperty"
             },
             "JSONnodeData": "{\n    \"m_Value\": 10.0,\n    \"m_Name\": \"test\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"c422c1ca-0964-4c1e-83ac-43a11ba7741d\"\n    },\n    \"m_DefaultReferenceName\": \"Vector1_DCFBB8CC\",\n    \"m_OverrideReferenceName\": \"_10\",\n    \"m_FloatType\": 0,\n    \"m_RangeValues\": {\n        \"x\": 0.0,\n        \"y\": 1.0\n    }\n}"
+        },
+        {
+            "typeInfo": {
+                "fullName": "UnityEditor.ShaderGraph.Vector3ShaderProperty"
+            },
+            "JSONnodeData": "{\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Name\": \"hukfew\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_Guid\": {\n        \"m_GuidSerialized\": \"875237fe-8928-4f37-b172-e0529551b589\"\n    },\n    \"m_DefaultReferenceName\": \"Vector3_4CF705C6\",\n    \"m_OverrideReferenceName\": \"\"\n}"
         }
     ],
     "m_GUID": {

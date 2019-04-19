@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!84 &-4124276157900191706
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mixture Output
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 512
+  m_Height: 512
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 8
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+--- !u!21 &-2287337437066176452
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs/TextureNodeDefaultBlack
+  m_Shader: {fileID: -6465566751694194690, guid: 7c6b9799c63c64ad7bd74475852e39e7,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _10: 10
+    m_Colors:
+    - Vector3_4CF705C6: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b113f958e0564f309164e29c24b042d, type: 3}
+  m_Name: Mixture
+  m_EditorClassIdentifier: 
+  serializedNodes:
+  - type: OutputNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    jsonDatas: '{"GUID":"b37e5046-2a05-4575-ab1a-40fe6d77a9e2","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":0.0,"y":0.0,"width":200.0,"height":400.0},"expanded":false,"debug":false,"input":{"instanceID":0},"targetSize":{"x":512,"y":512},"outputTexture":{"fileID":-4124276157900191706,"guid":"fcb06cf6f0f5744edaf547a87d4fb2dc","type":2},"format":8}'
+  - type: TextureNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    jsonDatas: '{"GUID":"502b3018-c8e0-486c-ba8b-371e3c13a82f","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-294.0500183105469,"y":50.00001907348633,"width":235.00003051757813,"height":251.00003051757813},"expanded":false,"debug":false,"input":{"instanceID":0},"output":{"instanceID":0},"shader":{"fileID":-6465566751694194690,"guid":"7c6b9799c63c64ad7bd74475852e39e7","type":3},"material":{"fileID":-2287337437066176452,"guid":"fcb06cf6f0f5744edaf547a87d4fb2dc","type":2}}'
+  edges:
+  - GUID: aa91982b-25e9-44b8-a9d5-f2f12ee60f90
+    owner: {fileID: 11400000}
+    inputNodeGUID: b37e5046-2a05-4575-ab1a-40fe6d77a9e2
+    outputNodeGUID: 502b3018-c8e0-486c-ba8b-371e3c13a82f
+    inputFieldName: input
+    outputFieldName: output
+  commentBlocks: []
+  pinnedElements:
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 242
+      width: 150
+      height: 200
+    opened: 1
+    editorType:
+      serializedType: GraphProcessor.ProcessorView, com.alelievr.NodeGraphProcessor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  exposedParameters: []
+  position: {x: 437, y: 11.999997, z: 0}
+  scale: {x: 0.8695652, y: 0.8695652, z: 1}
