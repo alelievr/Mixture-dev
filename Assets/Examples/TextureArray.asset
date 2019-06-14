@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!187 &-6887644324723829710
+--- !u!187 &-3587536310662839978
 Texture2DArray:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -35,6 +35,37 @@ Texture2DArray:
     offset: 0
     size: 0
     path: 
+--- !u!21 &-565904328146055997
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs/ShaderNodeDefault
+  m_Shader: {fileID: 4800000, guid: 8b34d639ef4c244bab922c9a99b9fd92, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureArray:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Slice: 0
+    m_Colors:
+    - Color_5F4ACD5A: {r: 1, g: 1, b: 1, a: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -49,15 +80,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serializedNodes:
   - type: Mixture.OutputNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    jsonDatas: '{"GUID":"bf4504e4-42b7-40c7-a619-7542aef8847e","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":0.0,"y":0.0,"width":330.0,"height":400.0},"expanded":false,"debug":false,"input":{"instanceID":0},"targetSize":{"x":512,"y":512,"z":2},"format":4,"mipmapCount":1,"filterMode":0,"sliceCount":1,"dimension":5}'
+    jsonDatas: '{"GUID":"bf4504e4-42b7-40c7-a619-7542aef8847e","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":0.0,"y":0.0,"width":330.0,"height":400.0},"expanded":false,"debug":false,"input":{"instanceID":0},"targetSize":{"x":512,"y":512,"z":2},"format":4,"mipmapCount":1,"filterMode":0,"sliceCount":1,"dimension":5,"currentSlice":0}'
   edges: []
   commentBlocks: []
   pinnedElements: []
   exposedParameters: []
-  position: {x: 295, y: 57.5, z: 0}
-  scale: {x: 1, y: 1, z: 1}
+  position: {x: 252, y: 8.5, z: 0}
+  scale: {x: 1.15, y: 1.15, z: 1}
   realtimePreview: 0
-  outputTexture: {fileID: -6887644324723829710}
   outputNode:
     GUID: bf4504e4-42b7-40c7-a619-7542aef8847e
     computeOrder: 1
@@ -77,4 +107,7 @@ MonoBehaviour:
     filterMode: 0
     sliceCount: 1
     dimension: 5
-  objectReferences: []
+    currentSlice: 0
+  objectReferences:
+  - {fileID: -565904328146055997}
+  _outputTexture: {fileID: -3587536310662839978}
