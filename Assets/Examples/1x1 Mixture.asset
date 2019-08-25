@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!89 &-4848720077385946082
+Cubemap:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 1x1 Mixture
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 2
+  m_Width: 1
+  m_Height: 1
+  m_CompleteImageSize: 16
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 6
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 0
+  image data: 96
+  _typelessdata: cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+  m_SourceTextures:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!21 &-633007879029017802
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/Mixture/UV
+  m_Shader: {fileID: 4800000, guid: 0e57459cc2eca8e4eb3e062b8ed60321, type: 3}
+  m_ShaderKeywords: CRT_CUBE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats: []
+    m_Colors:
+    - _Bias: {r: 0, g: 0, b: 0, a: 0}
+    - _Scale: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b113f958e0564f309164e29c24b042d, type: 3}
+  m_Name: 1x1 Mixture
+  m_EditorClassIdentifier: 
+  serializedNodes:
+  - type: Mixture.OutputNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    jsonDatas: '{"GUID":"daef4c32-d376-4158-9e10-07b8a8a7f0b7","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":0.0,"y":0.0,"width":100.0,"height":100.0},"expanded":true,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":1,"height":1,"sliceCount":1,"widthMode":1,"heightMode":1,"depthMode":1,"dimension":4,"targetFormat":52,"editFlags":213},"input":{"instanceID":0},"mipmapCount":1,"currentSlice":0,"compressionFormat":4,"compressionQuality":100,"enableCompression":false}'
+  - type: Mixture.UVNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    jsonDatas: '{"GUID":"0a40a9c6-ebe7-4519-bfef-12918f984c27","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-308.3740234375,"y":82.81603240966797,"width":250.00003051757813,"height":136.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":0,"height":0,"sliceCount":0,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255},"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"0e57459cc2eca8e4eb3e062b8ed60321","type":3},"material":{"fileID":-633007879029017802,"guid":"c2be6bc90df544afd8928f1b1030b9ee","type":2}}'
+  edges:
+  - GUID: 21f796fb-ebd8-442c-a27d-8a2487508d76
+    owner: {fileID: 11400000}
+    inputNodeGUID: daef4c32-d376-4158-9e10-07b8a8a7f0b7
+    outputNodeGUID: 0a40a9c6-ebe7-4519-bfef-12918f984c27
+    inputFieldName: input
+    outputFieldName: output
+    inputPortIdentifier: input
+    outputPortIdentifier: output
+  commentBlocks: []
+  pinnedElements: []
+  exposedParameters: []
+  position: {x: 145, y: 112, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  realtimePreview: 0
+  isRealtime: 0
+  outputNode:
+    GUID: daef4c32-d376-4158-9e10-07b8a8a7f0b7
+    computeOrder: 2
+    canProcess: 1
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 100
+      height: 100
+    expanded: 1
+    debug: 0
+    nodeLock: 0
+    rtSettings:
+      widthPercent: 0
+      heightPercent: 0
+      depthPercent: 0
+      width: 1
+      height: 1
+      sliceCount: 1
+      widthMode: 1
+      heightMode: 1
+      depthMode: 1
+      dimension: 4
+      targetFormat: 52
+      editFlags: 213
+    input: {fileID: 0}
+    mipmapCount: 1
+    currentSlice: 0
+    compressionFormat: 4
+    compressionQuality: 100
+    enableCompression: 0
+  objectReferences:
+  - {fileID: -633007879029017802}
+  _outputTexture: {fileID: -4848720077385946082}
