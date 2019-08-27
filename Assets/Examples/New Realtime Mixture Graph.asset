@@ -52,8 +52,8 @@ MonoBehaviour:
   commentBlocks: []
   pinnedElements: []
   exposedParameters: []
-  position: {x: 259, y: 140, z: 0}
-  scale: {x: 0.43232757, y: 0.43232757, z: 1}
+  position: {x: 592, y: 89, z: 0}
+  scale: {x: 1.3225, y: 1.3225, z: 1}
   realtimePreview: 1
   isRealtime: 1
   outputNode:
