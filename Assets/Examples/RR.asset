@@ -14,33 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serializedNodes:
   - type: Mixture.OutputNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    jsonDatas: '{"GUID":"70351fa6-15d6-4ee0-9e99-e060278c7d75","computeOrder":3,"canProcess":true,"position":{"serializedVersion":"2","x":0.0,"y":0.0,"width":100.0,"height":100.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":512,"height":512,"sliceCount":1,"widthMode":1,"heightMode":1,"depthMode":1,"dimension":2,"targetFormat":52,"editFlags":213,"doubleBuffered":false},"input":{"instanceID":0},"mipmapCount":1,"currentSlice":0,"compressionFormat":4,"compressionQuality":100,"enableCompression":false}'
+    jsonDatas: '{"GUID":"70351fa6-15d6-4ee0-9e99-e060278c7d75","computeOrder":3,"canProcess":true,"position":{"serializedVersion":"2","x":247.63705444335938,"y":-37.88090896606445,"width":400.0,"height":478.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":512,"height":512,"sliceCount":1,"widthMode":1,"heightMode":1,"depthMode":1,"dimension":2,"targetFormat":52,"editFlags":213,"doubleBuffered":false},"input":{"instanceID":0},"mipmapCount":1,"currentSlice":0,"compressionFormat":4,"compressionQuality":100,"enableCompression":false}'
   - type: Mixture.ShaderNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    jsonDatas: '{"GUID":"9b820a5a-13a4-4b17-b30c-2b2f1931898a","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":-317.0,"y":5.0,"width":250.0,"height":154.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":0,"doubleBuffered":false},"output":{"instanceID":0},"shader":{"fileID":-6465566751694194690,"guid":"0ee9d5f618f84a74d84dabe9cb4c5d9f","type":3},"material":{"fileID":2301506895597814145,"guid":"ea03e8123aaa5ab42b714cc3cb7787e6","type":2}}'
-  - type: Mixture.TimeNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    jsonDatas: '{"GUID":"85adc04a-71cb-47b1-ad58-b24f9dece6d1","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-472.1412048339844,"y":38.436580657958987,"width":101.99999237060547,"height":172.99998474121095},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":0,"doubleBuffered":false},"time":302.0697326660156,"sinTime":0.45897212624549868,"cosTime":0.8884506821632385,"deltaTime":0.01697549968957901,"frameCount":16651.0}'
+    jsonDatas: '{"GUID":"9b820a5a-13a4-4b17-b30c-2b2f1931898a","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-317.0,"y":5.0,"width":250.0,"height":154.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":0,"doubleBuffered":false},"output":{"instanceID":0},"shader":{"fileID":-6465566751694194690,"guid":"0ee9d5f618f84a74d84dabe9cb4c5d9f","type":3},"material":{"fileID":2301506895597814145,"guid":"ea03e8123aaa5ab42b714cc3cb7787e6","type":2}}'
+  - type: Mixture.ScaleBiasNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    jsonDatas: '{"GUID":"1ae12a5e-3cdc-4eae-9892-67ce002ecca5","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":-31.5,"y":29.5,"width":250.0,"height":210.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":0,"height":0,"sliceCount":0,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false},"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"423c5740bee720241a593eb459426694","type":3},"material":{"fileID":7308238524197823799,"guid":"ea03e8123aaa5ab42b714cc3cb7787e6","type":2}}'
+  - type: Mixture.VectorNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    jsonDatas: '{"GUID":"2a2ab597-d3f9-4ed2-8b3d-9b226a52bceb","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-190.0,"y":313.0,"width":250.0,"height":97.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":0,"doubleBuffered":false},"vector":{"x":1.0,"y":1.0,"z":1.0,"w":1.0}}'
   edges:
-  - GUID: c4c1b109-84e8-40e4-bac2-30da7f88127c
+  - GUID: 54e90a0d-4a9f-4637-ba1e-34d3d6b94995
+    owner: {fileID: 11400000}
+    inputNodeGUID: 1ae12a5e-3cdc-4eae-9892-67ce002ecca5
+    outputNodeGUID: 9b820a5a-13a4-4b17-b30c-2b2f1931898a
+    inputFieldName: materialInputs
+    outputFieldName: output
+    inputPortIdentifier: _Texture_2D
+    outputPortIdentifier: output
+  - GUID: f00c2daf-239d-445d-b6fb-4cf048982e94
     owner: {fileID: 11400000}
     inputNodeGUID: 70351fa6-15d6-4ee0-9e99-e060278c7d75
-    outputNodeGUID: 9b820a5a-13a4-4b17-b30c-2b2f1931898a
+    outputNodeGUID: 1ae12a5e-3cdc-4eae-9892-67ce002ecca5
     inputFieldName: input
     outputFieldName: output
     inputPortIdentifier: input
     outputPortIdentifier: output
-  - GUID: a9b81fe6-28bc-48c5-bd1d-0c67e2bc1e58
-    owner: {fileID: 11400000}
-    inputNodeGUID: 9b820a5a-13a4-4b17-b30c-2b2f1931898a
-    outputNodeGUID: 85adc04a-71cb-47b1-ad58-b24f9dece6d1
-    inputFieldName: materialInputs
-    outputFieldName: time
-    inputPortIdentifier: Vector1_9FE8B241
-    outputPortIdentifier: 
   commentBlocks: []
   pinnedElements: []
   exposedParameters: []
-  position: {x: 589, y: 292, z: 0}
-  scale: {x: 1.15, y: 1.15, z: 1}
+  position: {x: 696, y: 9, z: 0}
+  scale: {x: 1.7490063, y: 1.7490063, z: 1}
   realtimePreview: 1
   isRealtime: 1
   outputNode:
@@ -49,10 +52,10 @@ MonoBehaviour:
     canProcess: 1
     position:
       serializedVersion: 2
-      x: 0
-      y: 0
-      width: 100
-      height: 100
+      x: 247.63705
+      y: -37.88091
+      width: 400
+      height: 478
     expanded: 0
     debug: 0
     nodeLock: 0
@@ -78,6 +81,7 @@ MonoBehaviour:
     enableCompression: 0
   objectReferences:
   - {fileID: 2301506895597814145}
+  - {fileID: 7308238524197823799}
   _outputTexture: {fileID: 1762229103845740783}
 --- !u!86 &1762229103845740783
 CustomRenderTexture:
@@ -150,6 +154,42 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - Vector1_9FE8B241: 302.06973
+    - Vector1_9FE8B241: 2921.7368
     m_Colors:
     - Color_5F4ACD5A: {r: 1, g: 1, b: 1, a: 0}
+--- !u!21 &7308238524197823799
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/Mixture/ScaleBias
+  m_Shader: {fileID: 4800000, guid: 423c5740bee720241a593eb459426694, type: 3}
+  m_ShaderKeywords: CRT_2D
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Texture_2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_3D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Mode: 0
+    m_Colors:
+    - _Bias: {r: 0, g: 0, b: 0, a: 0}
+    - _Scale: {r: 1, g: 1, b: 0, a: 0}
