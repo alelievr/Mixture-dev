@@ -29,6 +29,45 @@ Material:
     m_Colors:
     - Color_5F4ACD5A: {r: 1, g: 1, b: 1, a: 0}
     - _Tiling: {r: 3, g: 7, b: 0, a: 0}
+--- !u!21 &-8122863693318643194
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/Mixture/CellularNoise
+  m_Shader: {fileID: 4800000, guid: da55f2393d0f8384db177010fad4c19c, type: 3}
+  m_ShaderKeywords: CRT_2D
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _UV_2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UV_3D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UV_Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Frequency: 4.9
+    - _Lacunarity: 2
+    - _Octaves: 3
+    - _Persistance: 0.23
+    - _Seed: 42
+    m_Colors:
+    - _OutputRange: {r: 0, g: 1, b: 0, a: 0}
 --- !u!21 &-7980514166843992231
 Material:
   serializedVersion: 6
@@ -61,7 +100,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Radius: 9.6
+    - _Radius: 0
     - _Threshold: 0.67
     m_Colors: []
 --- !u!21 &-7302302165575737273
@@ -263,7 +302,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Radius: 21
+    - _Radius: 2
     - _Threshold: 0.5
     m_Colors: []
 --- !u!21 &-3509724019202489496
@@ -351,7 +390,7 @@ MonoBehaviour:
     jsonDatas: '{"GUID":"914b0090-057c-4e8a-b89b-252811d55879","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-609.363037109375,"y":259.9792175292969,"width":250.0,"height":166.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":0,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"a":{"x":0.0,"y":0.0,"z":0.0,"w":0.0},"o":{"x":0.5,"y":0.5,"z":0.5,"w":0.5},"inputMin":-1.0,"inputMax":1.0,"outputMin":0.0,"outputMax":1.0}'
   - type: Mixture.RandomColorNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
-    jsonDatas: '{"GUID":"b228a176-b877-4d71-a129-0fdd058e623a","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-317.30975341796877,"y":643.6104125976563,"width":250.0,"height":144.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":0,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"r":{"r":0.11977031826972962,"g":0.603955090045929,"b":0.10365956276655197,"a":1.0},"minHue":0.0,"maxHue":1.0,"minSat":0.0,"maxSat":1.0,"minValue":0.0,"maxValue":1.0}'
+    jsonDatas: '{"GUID":"b228a176-b877-4d71-a129-0fdd058e623a","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-317.30975341796877,"y":643.6104125976563,"width":250.0,"height":144.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":0,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"r":{"r":0.025594715029001237,"g":0.017018482089042665,"b":0.01803526282310486,"a":1.0},"minHue":0.0,"maxHue":1.0,"minSat":0.0,"maxSat":1.0,"minValue":0.0,"maxValue":1.0}'
   - type: Mixture.VectorSwizzle, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
     jsonDatas: '{"GUID":"faa688b4-2174-44ca-a8f5-527098662188","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-537.0037841796875,"y":430.33648681640627,"width":250.0,"height":90.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":0,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"input":{"x":0.0,"y":0.0,"z":0.0,"w":0.0},"output":{"x":0.0,"y":0.0,"z":0.0,"w":0.0},"compX":0,"compY":1,"compZ":2,"compW":3,"custom":0.0}'
@@ -398,7 +437,7 @@ MonoBehaviour:
   - type: Mixture.Distance, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     jsonDatas: '{"GUID":"da588a29-0dc5-459b-9148-af6ac6d36370","computeOrder":5,"canProcess":true,"position":{"serializedVersion":"2","x":946.0,"y":146.0,"width":250.0,"height":456.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"634393dad9c7a004499bfd672b4b3345","type":3},"material":{"fileID":-7980514166843992231,"guid":"ea03e8123aaa5ab42b714cc3cb7787e6","type":2}}'
   - type: Mixture.GetPixel, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    jsonDatas: '{"GUID":"d7dc2796-3e44-478f-8cf5-2c5955527d8f","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":1625.1455078125,"y":1046.0283203125,"width":250.0,"height":133.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":0,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"texture":{"instanceID":0},"uv":{"x":0.5699999928474426,"y":0.5,"z":0.0,"w":0.0},"output":{"x":1.0,"y":0.040286868810653689,"z":0.0,"w":1.0}}'
+    jsonDatas: '{"GUID":"d7dc2796-3e44-478f-8cf5-2c5955527d8f","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":1625.1455078125,"y":1046.0283203125,"width":250.0,"height":133.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":0,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"texture":{"instanceID":0},"uv":{"x":0.5699999928474426,"y":0.5,"z":0.0,"w":0.0},"output":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}}'
   - type: Mixture.VectorNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     jsonDatas: '{"GUID":"588455e1-4e5c-441b-8200-868e98f7149e","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":679.9189453125,"y":764.9046020507813,"width":150.0,"height":205.99998474121095},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":0,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"vector":{"x":1.0,"y":1.0,"z":1.0,"w":1.0},"x":1.0,"y":1.0,"z":1.0,"w":1.0}'
   - type: Mixture.TextureNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
@@ -435,6 +474,17 @@ MonoBehaviour:
   - type: Mixture.FractalBrownianMotionNoise, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
     jsonDatas: '{"GUID":"55579672-84fe-42d8-ac71-37e2a945afcb","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":3324.0,"y":1287.0,"width":250.0,"height":582.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"5d3b6b8791fd2a84ca0cf3efdc35edd0","type":3},"material":{"fileID":2899582717348684091,"guid":"ea03e8123aaa5ab42b714cc3cb7787e6","type":2}}'
+  - type: Mixture.RidgedPerlinNoise, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    jsonDatas: '{"GUID":"242a78d0-633c-46a3-9401-46a0a70c9df9","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":2651.826171875,"y":1767.565185546875,"width":250.00001525878907,"height":582.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"49eed0c8b6dca3949a7864570e424043","type":3},"material":{"fileID":2148451690007156127,"guid":"ea03e8123aaa5ab42b714cc3cb7787e6","type":2}}'
+  - type: Mixture.CellularNoise, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    jsonDatas: '{"GUID":"e97d9ede-5c92-430b-9440-b8b801fb1330","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":2907.0,"y":1948.0,"width":250.0,"height":582.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"da55f2393d0f8384db177010fad4c19c","type":3},"material":{"fileID":-8122863693318643194,"guid":"ea03e8123aaa5ab42b714cc3cb7787e6","type":2}}'
+  - type: Mixture.RidgedCellularNoise, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    jsonDatas: '{"GUID":"f96aa36f-4302-4ca9-b3a5-4c1623b50e52","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":3656.13037109375,"y":2096.0,"width":250.00001525878907,"height":582.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":3,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"709dbd2e7ab678c4cb23bcf7fcf6fb2f","type":3},"material":{"fileID":8943486461891997683,"guid":"ea03e8123aaa5ab42b714cc3cb7787e6","type":2}}'
+  - type: Mixture.UVNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    jsonDatas: '{"GUID":"59cb5519-8a6c-4be2-b4c5-8944fb26d850","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":3287.391357421875,"y":2110.652099609375,"width":250.00001525878907,"height":432.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":3,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"0e57459cc2eca8e4eb3e062b8ed60321","type":3},"material":{"fileID":2666813006621710243,"guid":"ea03e8123aaa5ab42b714cc3cb7787e6","type":2}}'
   edges:
   - GUID: c62b94c6-92c1-4650-97b4-89d473e94fca
     owner: {fileID: 11400000}
@@ -564,6 +614,14 @@ MonoBehaviour:
     outputFieldName: output
     inputPortIdentifier: _UV_2D
     outputPortIdentifier: output
+  - GUID: 2463fc3a-b397-4068-9c07-8107517641be
+    owner: {fileID: 11400000}
+    inputNodeGUID: f96aa36f-4302-4ca9-b3a5-4c1623b50e52
+    outputNodeGUID: 59cb5519-8a6c-4be2-b4c5-8944fb26d850
+    inputFieldName: materialInputs
+    outputFieldName: output
+    inputPortIdentifier: _UV_3D
+    outputPortIdentifier: output
   commentBlocks:
   - title: New Comment Block
     color: {r: 0, g: 0, b: 0, a: 1}
@@ -578,7 +636,7 @@ MonoBehaviour:
     - 70351fa6-15d6-4ee0-9e99-e060278c7d75
   pinnedElements: []
   exposedParameters: []
-  position: {x: -3876, y: -1867, z: 0}
+  position: {x: -3953, y: -1806, z: 0}
   scale: {x: 1.3225, y: 1.3225, z: 1}
   realtimePreview: 0
   isRealtime: 1
@@ -643,6 +701,10 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 2899582717348684091}
+  - {fileID: 2148451690007156127}
+  - {fileID: -8122863693318643194}
+  - {fileID: 8943486461891997683}
+  - {fileID: 2666813006621710243}
   _outputTexture: {fileID: 1762229103845740783}
 --- !u!21 &1112774977489599728
 Material:
@@ -753,6 +815,45 @@ CustomRenderTexture:
   m_CubemapFaceMask: 4294967295
   m_DoubleBuffered: 0
   m_WrapUpdateZones: 0
+--- !u!21 &2148451690007156127
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/Mixture/RidgedPerlinNoise
+  m_Shader: {fileID: 4800000, guid: 49eed0c8b6dca3949a7864570e424043, type: 3}
+  m_ShaderKeywords: CRT_2D
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _UV_2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UV_3D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UV_Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Frequency: 5
+    - _Lacunarity: 2
+    - _Octaves: 3
+    - _Persistance: 0.42
+    - _Seed: 42
+    m_Colors:
+    - _OutputRange: {r: 0, g: 1, b: 0, a: 0}
 --- !u!21 &2301506895597814145
 Material:
   serializedVersion: 6
@@ -800,6 +901,29 @@ Material:
     m_Floats: []
     m_Colors:
     - Color_5F4ACD5A: {r: 1, g: 1, b: 1, a: 0}
+--- !u!21 &2666813006621710243
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/Mixture/UV
+  m_Shader: {fileID: 4800000, guid: 0e57459cc2eca8e4eb3e062b8ed60321, type: 3}
+  m_ShaderKeywords: CRT_3D
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats: []
+    m_Colors:
+    - _Bias: {r: 0, g: 0, b: 0, a: 0}
+    - _Scale: {r: 1, g: 1, b: 1, a: 0}
 --- !u!21 &2899582717348684091
 Material:
   serializedVersion: 6
@@ -834,8 +958,9 @@ Material:
     m_Floats:
     - _Frequency: 5
     - _Lacunarity: 2
-    - _Octaves: 5
+    - _Octaves: 2
     - _Persistance: 2.19
+    - _Seed: 42
     m_Colors:
     - _OutputRange: {r: 0.27, g: 1, b: 0, a: 0}
 --- !u!21 &3417854907390571297
@@ -1127,3 +1252,42 @@ Material:
     - _Mode: 0
     - _Step: 0.2
     m_Colors: []
+--- !u!21 &8943486461891997683
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/Mixture/RidgedCellularNoise
+  m_Shader: {fileID: 4800000, guid: 709dbd2e7ab678c4cb23bcf7fcf6fb2f, type: 3}
+  m_ShaderKeywords: CRT_3D USE_CUSTOM_UV
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _UV_2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UV_3D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UV_Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Frequency: 3.29
+    - _Lacunarity: 1.19
+    - _Octaves: 5
+    - _Persistance: 0.98
+    - _Seed: 42
+    m_Colors:
+    - _OutputRange: {r: -1.07, g: 1, b: 0, a: 0}
