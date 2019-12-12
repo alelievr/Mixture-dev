@@ -55,8 +55,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Frequency: 2.73
-    - _Lacunarity: 1.88
+    - _Frequency: 3
+    - _Lacunarity: 2
     - _Octaves: 6
     - _Persistance: 0.72
     - _Seed: 42
@@ -76,24 +76,25 @@ MonoBehaviour:
   m_Name: 512x512
   m_EditorClassIdentifier: 
   serializedNodes:
-  - type: Mixture.OutputNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    jsonDatas: '{"GUID":"77bb9a9b-05ac-45f6-a5dc-2faa8de6ad1b","computeOrder":5,"canProcess":true,"position":{"serializedVersion":"2","x":14.999979972839356,"y":17.869550704956056,"width":320.0,"height":537.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":1024,"height":1024,"sliceCount":1,"widthMode":1,"heightMode":1,"depthMode":1,"dimension":2,"targetFormat":52,"editFlags":213,"doubleBuffered":false,"wrapMode":0,"filterMode":0},"isPreviewCollapsed":false,"input":{"instanceID":0},"mipmapCount":1,"currentSlice":0,"compressionFormat":53,"compressionQuality":0,"enableCompression":true}'
+  - type: Mixture.OutputNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    jsonDatas: '{"GUID":"77bb9a9b-05ac-45f6-a5dc-2faa8de6ad1b","computeOrder":5,"canProcess":true,"position":{"serializedVersion":"2","x":14.999979972839356,"y":17.869550704956056,"width":320.0,"height":537.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":1024,"height":1024,"sliceCount":1,"widthMode":1,"heightMode":1,"depthMode":1,"dimension":2,"targetFormat":52,"editFlags":213,"doubleBuffered":false,"wrapMode":0,"filterMode":0},"isPreviewCollapsed":false,"previewMode":15,"previewMip":0.0,"previewVisible":true,"input":{"instanceID":0},"mipmapCount":1,"currentSlice":0,"compressionFormat":53,"compressionQuality":0,"enableCompression":true}'
   - type: Mixture.RidgedPerlinNoise, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
-    jsonDatas: '{"GUID":"488f3c86-f963-4d6e-9479-2c5efb8e83dd","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-577.2951049804688,"y":200.6486053466797,"width":250.0,"height":624.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"49eed0c8b6dca3949a7864570e424043","type":3},"material":{"fileID":7144179231345771568,"guid":"98a0b06579fecb7439e021e8f1807f1c","type":2}}'
+    jsonDatas: '{"GUID":"488f3c86-f963-4d6e-9479-2c5efb8e83dd","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-577.2951049804688,"y":200.6486053466797,"width":250.0,"height":624.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"previewMode":15,"previewMip":0.0,"previewVisible":true,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"49eed0c8b6dca3949a7864570e424043","type":3},"material":{"fileID":7144179231345771568,"guid":"98a0b06579fecb7439e021e8f1807f1c","type":2}}'
   - type: Mixture.ColorMatteNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
-    jsonDatas: '{"GUID":"1eebd2dc-52f1-487f-9b91-461ce595385c","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-577.2400512695313,"y":-74.61251831054688,"width":250.0,"height":122.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":true,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"c9fe3de6e0f2f1d4b8d8afc805f4ca22","type":3},"material":{"fileID":962451402447423306,"guid":"98a0b06579fecb7439e021e8f1807f1c","type":2}}'
+    jsonDatas: '{"GUID":"1eebd2dc-52f1-487f-9b91-461ce595385c","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-577.2400512695313,"y":-74.61251831054688,"width":250.0,"height":122.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":true,"previewMode":15,"previewMip":0.0,"previewVisible":false,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"c9fe3de6e0f2f1d4b8d8afc805f4ca22","type":3},"material":{"fileID":962451402447423306,"guid":"98a0b06579fecb7439e021e8f1807f1c","type":2}}'
   - type: Mixture.ColorMatteNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
-    jsonDatas: '{"GUID":"5bd6aff4-c7c6-495b-a1ac-4b9d6c476dc7","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-576.9901123046875,"y":60.18251037597656,"width":250.0,"height":122.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":true,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"c9fe3de6e0f2f1d4b8d8afc805f4ca22","type":3},"material":{"fileID":5440130759006921835,"guid":"98a0b06579fecb7439e021e8f1807f1c","type":2}}'
+    jsonDatas: '{"GUID":"5bd6aff4-c7c6-495b-a1ac-4b9d6c476dc7","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-576.9901123046875,"y":60.18251037597656,"width":250.0,"height":122.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":true,"previewMode":15,"previewMip":0.0,"previewVisible":false,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"c9fe3de6e0f2f1d4b8d8afc805f4ca22","type":3},"material":{"fileID":5440130759006921835,"guid":"98a0b06579fecb7439e021e8f1807f1c","type":2}}'
   - type: Mixture.BlendNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    jsonDatas: '{"GUID":"a553aff0-0c1f-4571-bc97-25db3c062d32","computeOrder":4,"canProcess":true,"position":{"serializedVersion":"2","x":-302.2004089355469,"y":97.00190734863281,"width":250.0,"height":456.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"5d69ff00d9a32944ea012824393d489a","type":3},"material":{"fileID":7031911092151782406,"guid":"98a0b06579fecb7439e021e8f1807f1c","type":2}}'
+    jsonDatas: '{"GUID":"a553aff0-0c1f-4571-bc97-25db3c062d32","computeOrder":4,"canProcess":true,"position":{"serializedVersion":"2","x":-302.2004089355469,"y":97.00190734863281,"width":250.0,"height":456.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"previewMode":15,"previewMip":0.0,"previewVisible":true,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"5d69ff00d9a32944ea012824393d489a","type":3},"material":{"fileID":7031911092151782406,"guid":"98a0b06579fecb7439e021e8f1807f1c","type":2}}'
   - type: Mixture.PerlinNoise, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
-    jsonDatas: '{"GUID":"e585d168-ce7c-4b0f-a526-c75dd6825ca8","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":-1080.0,"y":306.5,"width":250.0,"height":610.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"3ff8d72a4c500ad4093607671bcd9097","type":3},"material":{"fileID":-8525843933017013866,"guid":"98a0b06579fecb7439e021e8f1807f1c","type":2}}'
+    jsonDatas: '{"GUID":"e585d168-ce7c-4b0f-a526-c75dd6825ca8","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":-1080.0,"y":306.5,"width":250.0,"height":610.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"previewMode":7,"previewMip":0.0,"previewVisible":true,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"3ff8d72a4c500ad4093607671bcd9097","type":3},"material":{"fileID":-8525843933017013866,"guid":"98a0b06579fecb7439e021e8f1807f1c","type":2}}'
   - type: Mixture.UVNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    jsonDatas: '{"GUID":"7aa12ba9-ae16-4f7a-93c7-3ee62fbbe49b","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-1370.7398681640625,"y":307.05621337890627,"width":250.0,"height":424.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"0e57459cc2eca8e4eb3e062b8ed60321","type":3},"material":{"fileID":-9156072334090475626,"guid":"98a0b06579fecb7439e021e8f1807f1c","type":2}}'
+    jsonDatas: '{"GUID":"7aa12ba9-ae16-4f7a-93c7-3ee62fbbe49b","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-1370.7398681640625,"y":307.05621337890627,"width":250.0,"height":424.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"previewMode":15,"previewMip":0.0,"previewVisible":true,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"0e57459cc2eca8e4eb3e062b8ed60321","type":3},"material":{"fileID":-9156072334090475626,"guid":"98a0b06579fecb7439e021e8f1807f1c","type":2}}'
   edges:
   - GUID: 81291923-9cbd-424d-be66-30386edfd452
     owner: {fileID: 11400000}
@@ -138,8 +139,8 @@ MonoBehaviour:
   commentBlocks: []
   pinnedElements: []
   exposedParameters: []
-  position: {x: 2607, y: -480, z: 0}
-  scale: {x: 1.7490063, y: 1.7490063, z: 1}
+  position: {x: 714, y: -14, z: 0}
+  scale: {x: 1.3225, y: 1.3225, z: 1}
   realtimePreview: 1
   isRealtime: 0
   outputNode:
@@ -172,6 +173,9 @@ MonoBehaviour:
       wrapMode: 0
       filterMode: 0
     isPreviewCollapsed: 0
+    previewMode: 15
+    previewMip: 0
+    previewVisible: 1
     input: {fileID: 0}
     mipmapCount: 1
     currentSlice: 0
@@ -406,5 +410,6 @@ Material:
     - _Octaves: 5
     - _Persistance: 0.5
     - _Seed: 42
+    - _TilingMode: 0
     m_Colors:
     - _OutputRange: {r: 0, g: 1, b: 0, a: 0}
