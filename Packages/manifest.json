@@ -7,13 +7,14 @@
     "com.unity.ads": "2.0.8",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ext.nunit": "1.0.0",
-    "com.unity.ide.rider": "1.1.0",
+    "com.unity.ide.rider": "1.1.4",
     "com.unity.ide.visualstudio": "1.0.11",
     "com.unity.ide.vscode": "1.1.3",
     "com.unity.purchasing": "2.0.6",
-    "com.unity.render-pipelines.universal": "7.1.5",
-    "com.unity.shadergraph": "7.1.5",
+    "com.unity.render-pipelines.universal": "7.1.6",
+    "com.unity.shadergraph": "7.1.6",
     "com.unity.test-framework": "1.1.3",
+    "com.unity.ui.builder": "0.10.0-preview",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -49,7 +50,7 @@
   "lock": {
     "com.alelievr.node-graph-processor": {
       "revision": "upm",
-      "hash": "899ffa0c9fb639840fe85458802c42f0ecbd4412"
+      "hash": "5d2ec84baeec43f2335c66ac0f0f98f706465d4b"
     }
   }
 }

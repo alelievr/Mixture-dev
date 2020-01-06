@@ -135,14 +135,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Frequency: 5
+    - _Frequency: 0.63
     - _Lacunarity: 2
     - _Octaves: 5
-    - _Persistance: 0.5
+    - _Persistance: 0.6
     - _Seed: 42
     - _TilingMode: 0
     m_Colors:
-    - _OutputRange: {r: 0, g: 1, b: 0, a: 0}
+    - _OutputRange: {r: -0.25, g: 1, b: 0, a: 0}
 --- !u!21 &-4591307115409552390
 Material:
   serializedVersion: 6
@@ -180,12 +180,12 @@ MonoBehaviour:
   serializedNodes:
   - type: Mixture.OutputNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
-    jsonDatas: '{"GUID":"5e469e31-5e7a-4a29-b4d1-aaf3739e80d5","computeOrder":5,"canProcess":true,"position":{"serializedVersion":"2","x":9.950818061828614,"y":-56.14555358886719,"width":320.0000305175781,"height":488.00006103515627},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":512,"height":512,"sliceCount":1,"widthMode":1,"heightMode":1,"depthMode":1,"dimension":2,"targetFormat":52,"editFlags":213,"doubleBuffered":false,"wrapMode":0,"filterMode":0},"isPreviewCollapsed":false,"previewMode":15,"previewMip":0.0,"previewVisible":true,"input":{"instanceID":0},"mipmapCount":1,"currentSlice":0,"compressionFormat":53,"compressionQuality":100,"enableCompression":true}'
+    jsonDatas: '{"GUID":"5e469e31-5e7a-4a29-b4d1-aaf3739e80d5","computeOrder":5,"canProcess":true,"position":{"serializedVersion":"2","x":36.95274353027344,"y":-54.75614547729492,"width":320.0000305175781,"height":608.0},"expanded":false,"debug":true,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":512,"height":512,"sliceCount":1,"widthMode":1,"heightMode":1,"depthMode":1,"dimension":2,"targetFormat":52,"editFlags":213,"doubleBuffered":false,"wrapMode":0,"filterMode":0},"isPreviewCollapsed":false,"previewMode":7,"previewMip":0.0,"previewVisible":true,"input":{"instanceID":0},"hasMips":false,"customMipMapShader":{"fileID":-6465566751694194690,"guid":"bce4ce9a8bc4b1e41a0127b503727c28","type":3},"currentSlice":0,"compressionFormat":53,"compressionQuality":100,"enableCompression":true}'
   - type: Mixture.RidgedPerlinNoise, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
     jsonDatas: '{"GUID":"c4dab56b-8d96-4c64-8a40-0c858c919fb7","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-563.459228515625,"y":92.52088165283203,"width":250.0,"height":585.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"previewMode":7,"previewMip":0.0,"previewVisible":true,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"49eed0c8b6dca3949a7864570e424043","type":3},"material":{"fileID":-5377910864065985283,"guid":"98a0b06579fecb7439e021e8f1807f1c","type":2}}'
   - type: Mixture.BlendNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    jsonDatas: '{"GUID":"3294dae4-af34-4001-9859-7cee9bad90a4","computeOrder":4,"canProcess":true,"position":{"serializedVersion":"2","x":-256.4877624511719,"y":-55.198490142822269,"width":250.0,"height":461.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"previewMode":15,"previewMip":0.0,"previewVisible":true,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"5d69ff00d9a32944ea012824393d489a","type":3},"material":{"fileID":2062403730641196081,"guid":"98a0b06579fecb7439e021e8f1807f1c","type":2}}'
+    jsonDatas: '{"GUID":"3294dae4-af34-4001-9859-7cee9bad90a4","computeOrder":4,"canProcess":true,"position":{"serializedVersion":"2","x":-256.4877624511719,"y":-55.198490142822269,"width":250.0,"height":461.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"previewMode":7,"previewMip":0.0,"previewVisible":true,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"5d69ff00d9a32944ea012824393d489a","type":3},"material":{"fileID":2062403730641196081,"guid":"98a0b06579fecb7439e021e8f1807f1c","type":2}}'
   - type: Mixture.ColorMatteNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
     jsonDatas: '{"GUID":"76f8d8fd-4dde-4830-a788-ca354397c61e","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-560.3176879882813,"y":-161.90171813964845,"width":250.0,"height":116.00000762939453},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":true,"previewMode":15,"previewMip":0.0,"previewVisible":false,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"c9fe3de6e0f2f1d4b8d8afc805f4ca22","type":3},"material":{"fileID":7175371382568082430,"guid":"98a0b06579fecb7439e021e8f1807f1c","type":2}}'
@@ -201,23 +201,7 @@ MonoBehaviour:
     outputFieldName: output
     inputPortIdentifier: input
     outputPortIdentifier: output
-  - GUID: 0c9352c0-0c3c-4a83-be6c-e7e6e6edd3af
-    owner: {fileID: 11400000}
-    inputNodeGUID: 3294dae4-af34-4001-9859-7cee9bad90a4
-    outputNodeGUID: 399c48f8-d196-41a4-a74b-500866328e95
-    inputFieldName: materialInputs
-    outputFieldName: output
-    inputPortIdentifier: _Target_2D
-    outputPortIdentifier: output
-  - GUID: b9bc4144-ead0-4db4-a10a-0ecbba237e30
-    owner: {fileID: 11400000}
-    inputNodeGUID: 3294dae4-af34-4001-9859-7cee9bad90a4
-    outputNodeGUID: 76f8d8fd-4dde-4830-a788-ca354397c61e
-    inputFieldName: materialInputs
-    outputFieldName: output
-    inputPortIdentifier: _Source_2D
-    outputPortIdentifier: output
-  - GUID: 7949e08c-d872-4393-89a0-0eb95c4afc7f
+  - GUID: b65d8fa9-bd9e-4f97-957d-3887344ff3b3
     owner: {fileID: 11400000}
     inputNodeGUID: 3294dae4-af34-4001-9859-7cee9bad90a4
     outputNodeGUID: c4dab56b-8d96-4c64-8a40-0c858c919fb7
@@ -225,11 +209,28 @@ MonoBehaviour:
     outputFieldName: output
     inputPortIdentifier: _Mask_2D
     outputPortIdentifier: output
-  commentBlocks: []
+  - GUID: fe4d51ac-9c1d-48a8-a78f-5884e955c9b4
+    owner: {fileID: 11400000}
+    inputNodeGUID: 3294dae4-af34-4001-9859-7cee9bad90a4
+    outputNodeGUID: 399c48f8-d196-41a4-a74b-500866328e95
+    inputFieldName: materialInputs
+    outputFieldName: output
+    inputPortIdentifier: _Target_2D
+    outputPortIdentifier: output
+  - GUID: db3f83a6-72ad-4854-b1ad-04a2da214a74
+    owner: {fileID: 11400000}
+    inputNodeGUID: 3294dae4-af34-4001-9859-7cee9bad90a4
+    outputNodeGUID: 76f8d8fd-4dde-4830-a788-ca354397c61e
+    inputFieldName: materialInputs
+    outputFieldName: output
+    inputPortIdentifier: _Source_2D
+    outputPortIdentifier: output
+  groups: []
+  stackNodes: []
   pinnedElements: []
   exposedParameters: []
-  position: {x: 649, y: 320, z: 0}
-  scale: {x: 1, y: 1, z: 1}
+  position: {x: 671, y: 226, z: 0}
+  scale: {x: 1.3225, y: 1.3225, z: 1}
   realtimePreview: 1
   isRealtime: 0
   outputNode:
@@ -238,12 +239,12 @@ MonoBehaviour:
     canProcess: 1
     position:
       serializedVersion: 2
-      x: 9.950818
-      y: -56.145554
+      x: 36.952744
+      y: -54.756145
       width: 320.00003
-      height: 488.00006
+      height: 608
     expanded: 0
-    debug: 0
+    debug: 1
     nodeLock: 0
     rtSettings:
       widthPercent: 0
@@ -262,11 +263,12 @@ MonoBehaviour:
       wrapMode: 0
       filterMode: 0
     isPreviewCollapsed: 0
-    previewMode: 15
+    previewMode: 7
     previewMip: 0
     previewVisible: 1
     input: {fileID: 0}
-    mipmapCount: 1
+    hasMips: 1
+    customMipMapShader: {fileID: 0}
     currentSlice: 0
     compressionFormat: 53
     compressionQuality: 100
@@ -546,4 +548,4 @@ Material:
     m_TexEnvs: []
     m_Floats: []
     m_Colors:
-    - _Color: {r: 1, g: 0.29999995, b: 0.09999994, a: 0}
+    - _Color: {r: 0, g: 0, b: 0, a: 0}

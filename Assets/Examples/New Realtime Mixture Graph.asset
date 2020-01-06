@@ -22,7 +22,7 @@ Material:
     m_Floats: []
     m_Colors:
     - _Bias: {r: 0, g: 0, b: 0, a: 0}
-    - _Scale: {r: 2, g: 2, b: 1, a: 0}
+    - _Scale: {r: 1, g: 1, b: 1, a: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -36,10 +36,11 @@ MonoBehaviour:
   m_Name: New Realtime Mixture Graph
   m_EditorClassIdentifier: 
   serializedNodes:
-  - type: Mixture.OutputNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    jsonDatas: '{"GUID":"0cf28790-6efa-4f09-8414-c93b359e4a86","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":0.0,"y":0.0,"width":100.0,"height":100.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":512,"height":512,"sliceCount":1,"widthMode":1,"heightMode":1,"depthMode":1,"dimension":2,"targetFormat":52,"editFlags":213,"doubleBuffered":false},"input":{"instanceID":0},"mipmapCount":1,"currentSlice":0,"compressionFormat":4,"compressionQuality":100,"enableCompression":false}'
+  - type: Mixture.OutputNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    jsonDatas: '{"GUID":"0cf28790-6efa-4f09-8414-c93b359e4a86","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":-18.26085090637207,"y":26.95651626586914,"width":320.0,"height":463.0000305175781},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":512,"height":512,"sliceCount":1,"widthMode":1,"heightMode":1,"depthMode":1,"dimension":2,"targetFormat":52,"editFlags":213,"doubleBuffered":false,"wrapMode":0,"filterMode":0},"isPreviewCollapsed":false,"previewMode":15,"previewMip":0.0,"previewVisible":true,"input":{"instanceID":0},"mipmapCount":1,"currentSlice":0,"compressionFormat":4,"compressionQuality":100,"enableCompression":false}'
   - type: Mixture.UVNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    jsonDatas: '{"GUID":"e5e698b7-2dfc-4c3f-a92e-1d1a8adb33c5","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-299.18487548828127,"y":28.081512451171876,"width":250.0,"height":136.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":0,"height":0,"sliceCount":0,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false},"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"0e57459cc2eca8e4eb3e062b8ed60321","type":3},"material":{"fileID":-3492998449486723861,"guid":"e1deeb4e7b0244b7989943faca236094","type":2}}'
+    jsonDatas: '{"GUID":"e5e698b7-2dfc-4c3f-a92e-1d1a8adb33c5","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-299.18487548828127,"y":28.081512451171876,"width":250.0,"height":136.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":0,"height":0,"sliceCount":0,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":0},"isPreviewCollapsed":false,"previewMode":15,"previewMip":0.0,"previewVisible":true,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"0e57459cc2eca8e4eb3e062b8ed60321","type":3},"material":{"fileID":-3492998449486723861,"guid":"e1deeb4e7b0244b7989943faca236094","type":2}}'
   edges:
   - GUID: 9c67464b-e31f-4334-bf9c-9a43dcea36e3
     owner: {fileID: 11400000}
@@ -49,11 +50,12 @@ MonoBehaviour:
     outputFieldName: output
     inputPortIdentifier: input
     outputPortIdentifier: output
-  commentBlocks: []
+  groups: []
+  stackNodes: []
   pinnedElements: []
   exposedParameters: []
-  position: {x: 592, y: 89, z: 0}
-  scale: {x: 1.3225, y: 1.3225, z: 1}
+  position: {x: 733, y: 127, z: 0}
+  scale: {x: 1.15, y: 1.15, z: 1}
   realtimePreview: 1
   isRealtime: 1
   outputNode:
@@ -62,10 +64,10 @@ MonoBehaviour:
     canProcess: 1
     position:
       serializedVersion: 2
-      x: 0
-      y: 0
-      width: 100
-      height: 100
+      x: -18.26085
+      y: 26.956516
+      width: 320
+      height: 463.00003
     expanded: 0
     debug: 0
     nodeLock: 0
@@ -83,6 +85,12 @@ MonoBehaviour:
       targetFormat: 52
       editFlags: 213
       doubleBuffered: 0
+      wrapMode: 0
+      filterMode: 0
+    isPreviewCollapsed: 0
+    previewMode: 15
+    previewMip: 0
+    previewVisible: 1
     input: {fileID: 0}
     mipmapCount: 1
     currentSlice: 0
@@ -111,7 +119,7 @@ CustomRenderTexture:
   m_MipCount: -1
   m_DepthFormat: 0
   m_ColorFormat: 52
-  m_MipMap: 0
+  m_MipMap: 1
   m_GenerateMips: 1
   m_SRGB: 0
   m_UseDynamicScale: 0
@@ -119,12 +127,12 @@ CustomRenderTexture:
   m_EnableCompatibleFormat: 1
   m_TextureSettings:
     serializedVersion: 2
-    m_FilterMode: 1
+    m_FilterMode: 0
     m_Aniso: 1
     m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
   m_Dimension: 2
   m_VolumeDepth: 1
   m_Material: {fileID: 0}

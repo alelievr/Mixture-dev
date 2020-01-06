@@ -36,10 +36,11 @@ MonoBehaviour:
   m_Name: 1x1 Mixture
   m_EditorClassIdentifier: 
   serializedNodes:
-  - type: Mixture.OutputNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    jsonDatas: '{"GUID":"daef4c32-d376-4158-9e10-07b8a8a7f0b7","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":0.0,"y":0.0,"width":100.0,"height":100.0},"expanded":true,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":16,"height":16,"sliceCount":16,"widthMode":1,"heightMode":1,"depthMode":1,"dimension":4,"targetFormat":52,"editFlags":213,"doubleBuffered":false,"wrapMode":0,"filterMode":0},"isPreviewCollapsed":false,"input":{"instanceID":0},"mipmapCount":1,"currentSlice":0,"compressionFormat":4,"compressionQuality":100,"enableCompression":false}'
+  - type: Mixture.OutputNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    jsonDatas: '{"GUID":"daef4c32-d376-4158-9e10-07b8a8a7f0b7","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":0.0,"y":0.0,"width":100.0,"height":100.0},"expanded":true,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":16,"height":16,"sliceCount":16,"widthMode":1,"heightMode":1,"depthMode":1,"dimension":4,"targetFormat":52,"editFlags":213,"doubleBuffered":false,"wrapMode":0,"filterMode":0},"isPreviewCollapsed":false,"previewMode":0,"previewMip":0.0,"previewVisible":true,"input":{"instanceID":0},"hasMips":false,"customMipMapShader":{"instanceID":0},"currentSlice":0,"compressionFormat":4,"compressionQuality":100,"enableCompression":false}'
   - type: Mixture.UVNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    jsonDatas: '{"GUID":"0a40a9c6-ebe7-4519-bfef-12918f984c27","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-308.3740234375,"y":82.81603240966797,"width":250.00003051757813,"height":136.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":0,"height":0,"sliceCount":0,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":0},"isPreviewCollapsed":false,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"0e57459cc2eca8e4eb3e062b8ed60321","type":3},"material":{"fileID":-633007879029017802,"guid":"c2be6bc90df544afd8928f1b1030b9ee","type":2}}'
+    jsonDatas: '{"GUID":"0a40a9c6-ebe7-4519-bfef-12918f984c27","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-308.3740234375,"y":82.81603240966797,"width":250.00003051757813,"height":136.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":0,"height":0,"sliceCount":0,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":0},"isPreviewCollapsed":false,"previewMode":0,"previewMip":0.0,"previewVisible":true,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"0e57459cc2eca8e4eb3e062b8ed60321","type":3},"material":{"fileID":-633007879029017802,"guid":"c2be6bc90df544afd8928f1b1030b9ee","type":2}}'
   edges:
   - GUID: 21f796fb-ebd8-442c-a27d-8a2487508d76
     owner: {fileID: 11400000}
@@ -49,11 +50,12 @@ MonoBehaviour:
     outputFieldName: output
     inputPortIdentifier: input
     outputPortIdentifier: output
-  commentBlocks: []
+  groups: []
+  stackNodes: []
   pinnedElements: []
   exposedParameters: []
-  position: {x: 300, y: 259, z: 0}
-  scale: {x: 1.7490063, y: 1.7490063, z: 1}
+  position: {x: 464, y: 173, z: 0}
+  scale: {x: 1, y: 1, z: 1}
   realtimePreview: 0
   isRealtime: 0
   outputNode:
@@ -86,8 +88,12 @@ MonoBehaviour:
       wrapMode: 0
       filterMode: 0
     isPreviewCollapsed: 0
+    previewMode: 0
+    previewMip: 0
+    previewVisible: 1
     input: {fileID: 0}
-    mipmapCount: 1
+    hasMips: 0
+    customMipMapShader: {fileID: 0}
     currentSlice: 0
     compressionFormat: 4
     compressionQuality: 100
