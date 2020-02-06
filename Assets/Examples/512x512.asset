@@ -82,6 +82,7 @@ Texture2D:
   m_TextureFormat: 53
   m_MipCount: 1
   m_IsReadable: 1
+  m_IgnoreMasterTextureLimit: 0
   m_StreamingMipmaps: 0
   m_StreamingMipmapsPriority: 0
   m_AlphaIsTransparency: 0
@@ -226,54 +227,32 @@ MonoBehaviour:
     inputPortIdentifier: _Source_2D
     outputPortIdentifier: output
   groups: []
-  stackNodes: []
+  stackNodes:
+  - position: {x: 0, y: 0}
+    title: Output
+    acceptDrop: 0
+    acceptNewNode: 0
+    nodeGUIDs:
+    - 5e469e31-5e7a-4a29-b4d1-aaf3739e80d5
   pinnedElements: []
   exposedParameters: []
-  position: {x: 563, y: 233, z: 0}
-  scale: {x: 1.3225, y: 1.3225, z: 1}
+  position: {x: 635, y: 296, z: 0}
+  scale: {x: 1, y: 1, z: 1}
   realtimePreview: 1
   isRealtime: 0
-  outputNode:
-    GUID: 5e469e31-5e7a-4a29-b4d1-aaf3739e80d5
-    computeOrder: 5
-    canProcess: 1
-    position:
-      serializedVersion: 2
-      x: 36.952744
-      y: -54.756145
-      width: 320.00003
-      height: 608
-    expanded: 0
-    debug: 1
-    nodeLock: 0
-    rtSettings:
-      widthPercent: 0
-      heightPercent: 0
-      depthPercent: 0
-      width: 512
-      height: 512
-      sliceCount: 1
-      widthMode: 1
-      heightMode: 1
-      depthMode: 1
-      dimension: 2
-      targetFormat: 52
-      editFlags: 213
-      doubleBuffered: 0
-      wrapMode: 0
-      filterMode: 0
-    isPreviewCollapsed: 0
-    previewMode: 7
-    previewMip: 0
-    previewVisible: 1
-    input: {fileID: 0}
-    hasMips: 1
-    customMipMapShader: {fileID: -6465566751694194690, guid: bce4ce9a8bc4b1e41a0127b503727c28,
-      type: 3}
-    currentSlice: 0
-    compressionFormat: 53
-    compressionQuality: 100
-    enableCompression: 1
+  outputStackNode:
+    position: {x: 0, y: 0}
+    title: Output
+    acceptDrop: 0
+    acceptNewNode: 0
+    nodeGUIDs:
+    - 5e469e31-5e7a-4a29-b4d1-aaf3739e80d5
+    - 5e469e31-5e7a-4a29-b4d1-aaf3739e80d5
+    - 5e469e31-5e7a-4a29-b4d1-aaf3739e80d5
+    - 5e469e31-5e7a-4a29-b4d1-aaf3739e80d5
+    - 5e469e31-5e7a-4a29-b4d1-aaf3739e80d5
+    - 5e469e31-5e7a-4a29-b4d1-aaf3739e80d5
+    - 5e469e31-5e7a-4a29-b4d1-aaf3739e80d5
   objectReferences:
   - {fileID: 7144179231345771568}
   - {fileID: 962451402447423306}

@@ -50,7 +50,7 @@ MonoBehaviour:
   serializedNodes:
   - type: Mixture.OutputNode, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
-    jsonDatas: '{"GUID":"5bc3cf17-ef12-4327-bfd6-6250794107c5","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":0.0,"y":0.0,"width":100.0,"height":100.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":64,"height":64,"sliceCount":64,"widthMode":1,"heightMode":1,"depthMode":1,"dimension":3,"targetFormat":5,"editFlags":213,"doubleBuffered":false,"wrapMode":0,"filterMode":0},"isPreviewCollapsed":false,"previewMode":15,"previewMip":0.0,"previewVisible":true,"input":{"instanceID":0},"mipmapCount":1,"currentSlice":0,"compressionFormat":4,"compressionQuality":100,"enableCompression":false}'
+    jsonDatas: '{"GUID":"5bc3cf17-ef12-4327-bfd6-6250794107c5","computeOrder":2,"canProcess":true,"position":{"serializedVersion":"2","x":0.0,"y":0.0,"width":100.0,"height":100.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":0.0,"heightPercent":0.0,"depthPercent":0.0,"width":64,"height":64,"sliceCount":64,"widthMode":1,"heightMode":1,"depthMode":1,"dimension":3,"targetFormat":5,"editFlags":213,"doubleBuffered":false,"wrapMode":0,"filterMode":0},"isPreviewCollapsed":false,"previewMode":15,"previewMip":0.0,"previewVisible":true,"input":{"instanceID":0},"hasMips":false,"customMipMapShader":{"instanceID":0},"currentSlice":0,"compressionFormat":4,"compressionQuality":100,"enableCompression":false}'
   - type: Mixture.PerlinNoise, Mixture.Runtime, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
     jsonDatas: '{"GUID":"dc3fdb30-d61f-4190-aacc-32af6b6278a8","computeOrder":1,"canProcess":true,"position":{"serializedVersion":"2","x":-319.57281494140627,"y":6.313806533813477,"width":250.0,"height":364.0},"expanded":false,"debug":false,"nodeLock":false,"rtSettings":{"widthPercent":1.0,"heightPercent":1.0,"depthPercent":1.0,"width":512,"height":512,"sliceCount":1,"widthMode":0,"heightMode":0,"depthMode":0,"dimension":0,"targetFormat":0,"editFlags":255,"doubleBuffered":false,"wrapMode":0,"filterMode":1},"isPreviewCollapsed":false,"previewMode":15,"previewMip":0.0,"previewVisible":true,"output":{"instanceID":0},"shader":{"fileID":4800000,"guid":"3ff8d72a4c500ad4093607671bcd9097","type":3},"material":{"fileID":825039545197042346,"guid":"ccfebdbc19b102249a34c8da09b7f3e3","type":2}}'
@@ -63,52 +63,33 @@ MonoBehaviour:
     outputFieldName: output
     inputPortIdentifier: input
     outputPortIdentifier: output
-  commentBlocks: []
+  groups: []
+  stackNodes:
+  - position: {x: 0, y: 0}
+    title: Output
+    acceptDrop: 0
+    acceptNewNode: 0
+    nodeGUIDs:
+    - 5bc3cf17-ef12-4327-bfd6-6250794107c5
   pinnedElements: []
   exposedParameters: []
-  position: {x: 750, y: 203, z: 0}
+  position: {x: 739, y: 135, z: 0}
   scale: {x: 1.520875, y: 1.520875, z: 1}
   realtimePreview: 0
   isRealtime: 0
-  outputNode:
-    GUID: 5bc3cf17-ef12-4327-bfd6-6250794107c5
-    computeOrder: 2
-    canProcess: 1
-    position:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 100
-      height: 100
-    expanded: 0
-    debug: 0
-    nodeLock: 0
-    rtSettings:
-      widthPercent: 0
-      heightPercent: 0
-      depthPercent: 0
-      width: 64
-      height: 64
-      sliceCount: 64
-      widthMode: 1
-      heightMode: 1
-      depthMode: 1
-      dimension: 3
-      targetFormat: 5
-      editFlags: 213
-      doubleBuffered: 0
-      wrapMode: 0
-      filterMode: 0
-    isPreviewCollapsed: 0
-    previewMode: 15
-    previewMip: 0
-    previewVisible: 1
-    input: {fileID: 0}
-    mipmapCount: 1
-    currentSlice: 0
-    compressionFormat: 4
-    compressionQuality: 100
-    enableCompression: 0
+  outputStackNode:
+    position: {x: 0, y: 0}
+    title: Output
+    acceptDrop: 0
+    acceptNewNode: 0
+    nodeGUIDs:
+    - 5bc3cf17-ef12-4327-bfd6-6250794107c5
+    - 5bc3cf17-ef12-4327-bfd6-6250794107c5
+    - 5bc3cf17-ef12-4327-bfd6-6250794107c5
+    - 5bc3cf17-ef12-4327-bfd6-6250794107c5
+    - 5bc3cf17-ef12-4327-bfd6-6250794107c5
+    - 5bc3cf17-ef12-4327-bfd6-6250794107c5
+    - 5bc3cf17-ef12-4327-bfd6-6250794107c5
   objectReferences:
   - {fileID: 825039545197042346}
   _outputTexture: {fileID: -4215379423907113863}
