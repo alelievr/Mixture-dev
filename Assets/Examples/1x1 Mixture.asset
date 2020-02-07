@@ -95,10 +95,15 @@ MonoBehaviour:
     - daef4c32-d376-4158-9e10-07b8a8a7f0b7
     - daef4c32-d376-4158-9e10-07b8a8a7f0b7
     - daef4c32-d376-4158-9e10-07b8a8a7f0b7
+    - daef4c32-d376-4158-9e10-07b8a8a7f0b7
+    - daef4c32-d376-4158-9e10-07b8a8a7f0b7
+    - daef4c32-d376-4158-9e10-07b8a8a7f0b7
+    - daef4c32-d376-4158-9e10-07b8a8a7f0b7
+    - daef4c32-d376-4158-9e10-07b8a8a7f0b7
   objectReferences:
   - {fileID: -3223953952058006724}
   - {fileID: 2931276183926047176}
-  _outputTexture: {fileID: 6982677941647048320}
+  _outputTexture: {fileID: 0}
   references:
     version: 1
     00000000:
