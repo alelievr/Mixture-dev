@@ -61,7 +61,7 @@ MonoBehaviour:
   - id: 0
   pinnedElements: []
   exposedParameters: []
-  position: {x: 759, y: 83, z: 0}
+  position: {x: 729, y: 195, z: 0}
   scale: {x: 1, y: 1, z: 1}
   realtimePreview: 1
   isRealtime: 0
@@ -73,6 +73,8 @@ MonoBehaviour:
     nodeGUIDs:
     - daef4c32-d376-4158-9e10-07b8a8a7f0b7
     - bc9eb120-1626-411a-a4cb-04df9505ac35
+    - daef4c32-d376-4158-9e10-07b8a8a7f0b7
+    - daef4c32-d376-4158-9e10-07b8a8a7f0b7
     - daef4c32-d376-4158-9e10-07b8a8a7f0b7
     - daef4c32-d376-4158-9e10-07b8a8a7f0b7
     - daef4c32-d376-4158-9e10-07b8a8a7f0b7
